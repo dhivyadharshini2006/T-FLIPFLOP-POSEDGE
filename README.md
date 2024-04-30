@@ -28,19 +28,19 @@ From the above characteristic table, we can directly write the next state equati
 
 **Procedure**
 
-Define Module: Define a Verilog module for the T flip-flop with inputs (T, CLK) and outputs (Q, Q_bar).
+1.Define Module: Define a Verilog module for the T flip-flop with inputs (T, CLK) and outputs (Q, Q_bar).
 
-Declare Inputs and Outputs: Declare input and output ports for the module.
+2.Declare Inputs and Outputs: Declare input and output ports for the module.
 
-Implement Flip-Flop Logic: Write Verilog code to implement the T flip-flop logic based on its functional table. Use a synchronous always @(posedge CLK) block to trigger the flip-flop on the positive edge of the clock signal.
+3.Implement Flip-Flop Logic: Write Verilog code to implement the T flip-flop logic based on its functional table. Use a synchronous always @(posedge CLK) block to trigger the flip-flop on the positive edge of the clock signal.
 
-Simulate Using Testbench: Write a Verilog testbench to simulate the behavior of the T flip-flop under different input conditions.
+4.Simulate Using Testbench: Write a Verilog testbench to simulate the behavior of the T flip-flop under different input conditions.
 
-Apply Input Stimuli: In the testbench, apply various combinations of input stimuli (T, CLK) to cover all possible input states.
+5.Apply Input Stimuli: In the testbench, apply various combinations of input stimuli (T, CLK) to cover all possible input states.
 
-Verify Output Behavior: Verify that the output behavior of the T flip-flop matches the expected behavior defined by its functional table.
+6.Verify Output Behavior: Verify that the output behavior of the T flip-flop matches the expected behavior defined by its functional table.
 
-Check for Race Conditions: Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input changes.
+7.Check for Race Conditions: Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input changes.
 
 
 **PROGRAM**
@@ -69,10 +69,8 @@ endmodule
 ```
 
 **RTL LOGIC FOR FLIPFLOPS**
+![image](https://github.com/dhivyadharshini2006/T-FLIPFLOP-POSEDGE/assets/144979490/5bce7750-d96a-4632-997b-ccecfbd3ad90)
 
-
-
-![image](https://github.com/dhivyadharshini2006/T-FLIPFLOP-POSEDGE/assets/144979490/94133270-1a9a-42b5-924d-c24aa335788e)
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
